@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+}
+
+
+
+
+.Title, .DeckCount, .Desc {
+  text-align: center;
+}
+
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 200px;
+
+  background-color: rgb(182, 62, 62);
+  padding: 50px;
+  border-radius: 20px;
+
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+
+.Card.flipped {
+  background-color: rgb(138, 213, 143);
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100%;
+  background-color: rgb(77, 92, 118);
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 20px 10px 20px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(58, 70, 90);
+    cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
+#Addition {
+  background-color: rgb(215, 114, 114);
+}
+
+#Addition-flipped {
+  background-color: rgb(116, 227, 129);
+}
+
+
+#Multiplication {
+  background-color: rgb(31, 228, 228);
+}
+
+#Multiplication-flipped {
+  background-color: rgb(164, 244, 244);
+}
+
+
+#Subtraction {
+  background-color: rgb(126, 10, 227);
+}
+
+#Subtraction-flipped {
+  background-color: rgb(197, 157, 237);
+}
+
+
+
+#Division {
+  background-color: rgb(232, 220, 4);
+}
+
+#Division-flipped {
+  background-color: rgb(225, 163, 88);
+}
